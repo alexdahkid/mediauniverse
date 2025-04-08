@@ -43,8 +43,8 @@ Mobile Player
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/r2hu1/musichub.git
-cd musichub
+git clone https://github.com/alexdahkid/mediauniverse.git
+cd mediauniverse
 ```
 
 2. Install dependencies:
@@ -59,7 +59,7 @@ npm install or pnpm install
 npm run dev or pnpm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser to explore MusicHub.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to explore Media Universe.
 
 ## Setup Api
 
