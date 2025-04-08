@@ -1,11 +1,12 @@
 {
-  "name": "musichub",
+  "name": "media universe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "stop": "pkill -f node server.js",
     "lint": "next lint"
   },
   "dependencies": {

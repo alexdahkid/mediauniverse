@@ -4,8 +4,13 @@ import { Skeleton } from "../ui/skeleton";
 import { useContext, useEffect } from "react";
 import { MusicContext } from "@/hooks/use-context";
 import { IoPlay } from "react-icons/io5";
+import { useState } from 'react';
 
 export default function SongCard({ title, image, artist, id, desc }) {
+    function Recomandation() {
+        const [language, setLanguage] = useState("english");
+    }
+    const [language, setlanguage] = useState("english");
     const ids = useContext(MusicContext);
     const setLastPlayed = () => {
         localStorage.clear();
